@@ -3,23 +3,334 @@
           {
         "id": 1,
         "title": "Mecánica ligera",
-        "description": "",
+        "description": "Este servicio incluye la reparación de componentes mecánicos básicos como cambios de aceite, filtros, bujías, correas, entre otros.",
+        "secundaryDescription": "Contamos con la experiencia y las herramientas para realizar cambios de distribución, reparación de alternadores, embragues, mantenimiento general del vehículo. Ofrecemos el servicio de lubricentro para todas las marcas de vehículos. Trabajamos con los mejores productos para darte lo mejor a tú vehículo.",
         "cover": "/1.MecanicaLigera/Mecanica-ligera.jpg",
-        "gallery": ["https://www.google.com"]  
+        "gallery": [
+            {
+            "id": 0,
+            "url": "/1.MecanicaLigera/Mecanica-ligera.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
+            "id": 3,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
+    "fotos": [
+        {
+        "id": 0,
+        "url": "/1.MecanicaLigera/collage/grande.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/1.MecanicaLigera/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/1.MecanicaLigera/collage/portadas-11.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/1.MecanicaLigera/collage/grande2.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/1.MecanicaLigera/collage/portadas-12.jpg"
+    }
+]
     },
     {
         "id": 2,
         "title": "Tren delantero",
-        "description": "",
+        "description": "Realizamos cambios, reparaciones de tren delantero y suspensión de las distintas marcas, modelos existentes en el mercado automotriz.",
+          "secundaryDescription": "El servicio de tren delantero se encarga de la revisión, ajuste y reparación de componentes como los amortiguadores, rótulas, brazos de suspensión, entre otros, que componen el sistema de dirección y suspensión delantera del vehículo. Contamos con una amplia experiencia en trenes delanteros y traseros.",
         "cover": "/2.Tren-delantero/cover-trenDelantero.jpg",
-        "gallery": ["https://www.google.com"]  
+        "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
+            "id": 3,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
+    "fotos": [
+        {
+        "id": 0,
+        "url": "/2.Tren-delantero/collage/grande.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/2.Tren-delantero/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/2.Tren-delantero/collage/portadas-11.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/2.Tren-delantero/collage/grande2.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/2.Tren-delantero/collage/portadas-12.jpg"
+    }
+]
     },
     {
         "id": 3,
         "title": "Reparacion de frenos",
-        "description": "",
+        "description": "Contamos con un servicio de reparación y cambios de todo los componentes del freno para todas las marcas de vehículos.",
+         "secundaryDescription":"El taller automotriz ofrece servicios de revisión, mantenimiento y reparación del sistema de frenos del vehículo, incluyendo cambio de pastillas, discos, revisión de líquido de frenos, entre otros.",
         "cover": "/3.Frenos/cover-frenos.jpg",
-        "gallery": ["/3.Frenos/cover-frenos.jpg"]  
+        "gallery": [{
+            "id": 3,
+            "url": "/3.Frenos/cover-frenos.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/3.Frenos/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/3.Frenos/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/3.Frenos/collage/grande.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/3.Frenos/collage/grande-2.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/3.Frenos/collage/portadas-12.jpg"
+    }
+] 
+    },
+    {
+        "id": 4,
+        "title": "Diagnóstico computarizado",
+        "description": "A través de un diagnóstico computarizado por medio de un Scanner, detectamos y diagnosticamos todo tipos de fallas del vehículo para su posterior solución. Contamos con un software moderno para brindar solución a los modelos de autos más recientes y de gama alta.",
+         "secundaryDescription":"El taller automotriz ofrece servicios de revisión, mantenimiento y reparación del sistema de frenos del vehículo, incluyendo cambio de pastillas, discos, revisión de líquido de frenos, entre otros.",
+        "cover": "/4.Diag-Computarizado/cover-diag-computalizado.jpg",
+        "gallery": [{
+            "id": 3,
+            "url": "/4.Diag-Computarizado/cover-diag-computalizado.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/4.Diag-Computarizado/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/4.Diag-Computarizado/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/4.Diag-Computarizado/collage/grande.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/4.Diag-Computarizado/collage/grande-2.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/4.Diag-Computarizado/collage/portadas-12.jpg"
+    }
+] 
+    },
+    {
+        "id": 5,
+        "title": "Dirección hidráulica",
+        "description": "Este servicio se encarga de la revisión y reparación del sistema de dirección asistida hidráulica del vehículo, incluyendo la verificación de niveles de líquido, correas y componentes asociados.",
+         "secundaryDescription":"Ofrecemos revisión y la reparación de todo el sistema hidráulico en los vehículos, cajas, cremalleras, flexibles, etc. Contamos con las herramientas especializadas para brindarle lo mejor a tu vehículo.",
+        "cover": "/5.Direcciones-hidraulicas/cover-direccionHidraulica.jpg",
+        "gallery": [{
+            "id": 3,
+            "url": "/5.Direcciones-hidraulicas/cover-direccionHidraulica.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/5.Direcciones-hidraulicas/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/5.Direcciones-hidraulicas/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/5.Direcciones-hidraulicas/collage/grande.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/5.Direcciones-hidraulicas/collage/grande-2.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/5.Direcciones-hidraulicas/collage/portadas-12.jpg"
+    }
+] 
+    },
+    {
+        "id": 6,
+        "title": "Aire acondicionado",
+        "description": "Ofrecemos servicios de reparación y mantenimiento del sistema de aire acondicionado del vehículo, incluyendo recargas de refrigerante, reparación de fugas, limpieza y ajustes.",
+         "secundaryDescription":"En el área de aire acondicionado contamos con la experiencia de realizar todo tipo de reparaciones e instalaciones nuevas para los vehículos. Reparación de mangueras, cambio de compresores, limpieza del circuito, arreglo de evaporadores y mucho más.",
+        "cover": "/6.Aire/cover-aire.jpg",
+        "gallery": [{
+            "id": 3,
+            "url": "/6.Aire/cover-aire.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/6.Aire/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/6.Aire/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/6.Aire/collage/grande-2.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/6.Aire/collage/grande.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/6.Aire/collage/portadas-12.jpg"
+    }
+] 
+    },
+    {
+        "id": 7,
+        "title": "Calefacción",
+        "description": "La calefacción del vehículo es fundamental para el confort de los pasajeros, por lo que este servicio se encarga de mantener en óptimas condiciones el sistema de calefacción del automóvil.",
+         "secundaryDescription":"Reparaciones y soluciones para la calefacción de tu vehículo, cambio de radiadores de calefacción, reemplazo de mangueras, limpieza del circuito de líquido refrigerante.",
+        "cover": "/7.Calef/cover-calef.jpg",
+        "gallery": [{
+            "id": 3,
+            "url": "/7.Calef/cover-calef.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/7.Calef/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/7.Calef/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/7.Calef/collage/grande-2.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/7.Calef/collage/grande.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/7.Calef/collage/portadas-12.jpg"
+    }
+] 
+    },
+    {
+        "id": 8,
+        "title": "Electicidad",
+        "description": "Este servicio se enfoca en la revisión y reparación del sistema eléctrico del vehículo, incluyendo la batería, luces, alternador, arranque, entre otros.",
+         "secundaryDescription":"En la electricidad de los vehículos actuales existe un alto componente de electrónica teniendo que utilizar herramientas mucho más precisas y una mayor capacitación. Contamos con personal especializado y la tecnología apropiada.",
+        "cover": "/8.Electricidad/cover-electricidad.jpg",
+        "gallery": [{
+            "id": 3,
+            "url": "/8.Electricidad/cover-electricidad.jpg"
+        }] ,
+         "fotos": [
+        {
+        "id": 0,
+        "url": "/8.Electricidad/collage/portadas-11.jpg"
+    },
+    {
+        "id": 1,
+        "url": "/8.Electricidad/collage/portadas-09.jpg"
+    },
+    {
+        "id": 2,
+        "url": "/8.Electricidad/collage/grande-2.jpg"
+    },
+    {
+        "id": 3,
+        "url": "/8.Electricidad/collage/grande.jpg"
+    },
+    {
+        "id": 4,
+        "url": "/8.Electricidad/collage/portadas-12.jpg"
+    }
+] 
     }
 ]
 }

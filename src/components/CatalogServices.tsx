@@ -17,11 +17,13 @@ export default function CatalogServices() {
               <div className="h-1 w-20 bg-red-500 rounded"></div>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Servicios generales de mecánica automotriz, aire acondicionado,
-              reparación de tren delantero, electricidad y más.
+              En Friocar Full Service te ofrecemos todas estas comodidades en
+              servicios para tu vehículo, con la mejor mano de obra totalmente
+              capacitada, rápida y las mejores herramientas de última
+              tecnología.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex md:justify-normal justify-center flex-wrap -m-4">
             <Suspense fallback={<div>Loading...</div>}>
               {data &&
                 !error &&
@@ -29,7 +31,7 @@ export default function CatalogServices() {
                   return (
                     <div
                       key={x.id}
-                      className=" xl:w-1/3    md:w-1/2 jus   p-4 hover:scale-105 transition-all"
+                      className=" w-full xl:w-1/3    sm:w-1/2 jus   p-4 hover:scale-105 transition-all"
                     >
                       <div className="bg-gray-100 p-6 h-full rounded-lg flex flex-col justify-between">
                         <img

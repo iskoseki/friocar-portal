@@ -4,6 +4,7 @@ export interface Servicio {
   id: number;
   title: string;
   description: string;
+  secundaryDescription: string;
   cover: string;
   gallery: string[];
 }

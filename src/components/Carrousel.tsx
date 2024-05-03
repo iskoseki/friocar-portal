@@ -9,6 +9,7 @@ import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import Btn from "./Btn";
 import useServices from "../hooks/useServices";
+import { Link } from "react-router-dom";
 export default function Carrousel() {
   const { data } = useServices();
   return (
@@ -29,14 +30,11 @@ export default function Carrousel() {
                       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                         {x.title}
                       </h1>
-                      <p className="mb-8 leading-relaxed">
-                        Copper mug try-hard pitchfork pour-over freegan heirloom
-                        neutra air plant cold-pressed tacos poke beard tote bag.
-                        Heirloom echo park mlkshk tote bag selvage hot chicken
-                        authentic tumeric truffaut hexagon try-hard chambray.
-                      </p>
+                      <p className="mb-8 leading-relaxed">{x.description}</p>
                       <div className="flex justify-center gap-2">
-                        <Btn color={"red"}>Conocer mas</Btn>
+                        <Link to={`/servicios/${x.id}`}>
+                          <Btn color={"red"}>Conocer mas</Btn>
+                        </Link>
                       </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

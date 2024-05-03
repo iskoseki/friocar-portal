@@ -9,6 +9,7 @@ import Services from "./pages/Services.tsx";
 import Layout from "./Layout.tsx";
 import Contacto from "./pages/Contact.tsx";
 import About from "./pages/AboutUs.tsx";
+import SingleServicio from "./components/SingleServicio.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,9 +18,13 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/servicios",
+    path: "servicios",
     element: <Services />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "servicios/:id",
+    element: <SingleServicio />,
   },
   {
     path: "/contacto",

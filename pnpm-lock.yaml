@@ -35,6 +35,9 @@ dependencies:
   react-icons:
     specifier: ^5.2.0
     version: 5.2.0(react@18.3.1)
+  react-photo-album:
+    specifier: ^2.3.1
+    version: 2.3.1(react@18.3.1)
   react-router-dom:
     specifier: ^6.23.0
     version: 6.23.0(react-dom@18.3.1)(react@18.3.1)
@@ -1963,6 +1966,15 @@ packages:
     resolution: {integrity: sha512-n52Y7Eb4MgQZHsSZOhSXv1zs2668/hBYKfSRIvKh42yExjyhZu0d1IK2CLLZ3BZB1oo13lDfwx2vOh2z9FTV6Q==}
     peerDependencies:
       react: '*'
+    dependencies:
+      react: 18.3.1
+    dev: false
+
+  /react-photo-album@2.3.1(react@18.3.1):
+    resolution: {integrity: sha512-c7ofDx2DAbQa9AW9wUWOBX9zUKf/QjvdQK+fPNKEiKprks/n8t4c2viyBZ6EWpQLFLU0ad3yVBTgFvxEZ46/Iw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16.8.0'
     dependencies:
       react: 18.3.1
     dev: false

@@ -3,14 +3,20 @@ import { useParams } from "react-router-dom";
 import useServices, { Servicio } from "../hooks/useServices";
 import Carrousel from "./Carrousel";
 import Cta from "./Cta";
-import CarrouselSingle from "./CarrouselSigle";
+import { EffectCube, Pagination } from "swiper/modules";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
 export default function SingleServicio() {
   const { id } = useParams();
   const { data, error } = useServices();
 
   const serviceById = data?.find((x: Servicio) => x.id == Number(id));
-  console.log(serviceById);
+  const gallery = serviceById?.gallery.map((url, id) => ({ id, url }));
 
   return (
     <>
@@ -38,7 +44,33 @@ export default function SingleServicio() {
                 </div>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <CarrouselSingle gallery={serviceById.gallery} />
+                <Swiper
+                  effect={"cube"}
+                  grabCursor={true}
+                  cubeEffect={{
+                    shadow: true,
+                    slideShadows: true,
+                    shadowOffset: 20,
+                    shadowScale: 0.94,
+                  }}
+                  pagination={true}
+                  modules={[EffectCube, Pagination]}
+                  className="mySwiper"
+                >
+                  {gallery &&
+                    gallery.map((x) => {
+                      return (
+                        <SwiperSlide key={x.id}>
+                          <img
+                            alt="hero"
+                            width={720}
+                            height={600}
+                            src={x.url}
+                          />
+                        </SwiperSlide>
+                      );
+                    })}
+                </Swiper>
               </div>
             </div>
           </section>

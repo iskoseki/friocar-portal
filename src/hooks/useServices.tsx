@@ -7,6 +7,7 @@ export interface Servicio {
   secundaryDescription: string;
   cover: string;
   gallery: string[];
+  fotos: { id: number; url: string }[];
 }
 export default function useServices() {
   const [data, setData] = React.useState<Servicio[]>();

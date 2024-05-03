@@ -1,6 +1,3 @@
-"use client"
-import React from "react";
-
 const WhatsAppButton = () => {
   const phoneNumber = "+5493417076172"; // Reemplaza esto con el número de teléfono del cliente
 
@@ -19,7 +16,7 @@ const WhatsAppButton = () => {
         width: "60px",
         height: "60px",
         borderRadius: "50%",
-       
+
         color: "white",
         fontSize: "24px",
         display: "flex",

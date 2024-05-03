@@ -1,0 +1,25 @@
+{
+    "servicos" : [
+          {
+        "id": 1,
+        "title": "Mecánica ligera",
+        "description": "",
+        "cover": "/1.MecanicaLigera/Mecanica-ligera.jpg",
+        "gallery": ["https://www.google.com"]  
+    },
+    {
+        "id": 2,
+        "title": "Tren delantero",
+        "description": "",
+        "cover": "/2.Tren-delantero/cover-trenDelantero.jpg",
+        "gallery": ["https://www.google.com"]  
+    },
+    {
+        "id": 3,
+        "title": "Reparacion de frenos",
+        "description": "",
+        "cover": "/3.Frenos/cover-frenos.jpg",
+        "gallery": ["/3.Frenos/cover-frenos.jpg"]  
+    }
+]
+}

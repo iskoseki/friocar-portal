@@ -59,6 +59,7 @@ export default function SingleServicio() {
                 >
                   {gallery &&
                     gallery.map((x) => {
+                      console.log(x.url);
                       return (
                         <SwiperSlide key={x.id}>
                           <img

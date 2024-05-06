@@ -32,9 +32,9 @@ export default function Carrousel() {
                       </h1>
                       <p className="mb-8 leading-relaxed">{x.description}</p>
                       <div className="flex justify-center gap-2">
-                        <Link to={`/servicios/${x.id}`}>
-                          <Btn color={"red"}>Conocer mas</Btn>
-                        </Link>
+                        <Btn url={`/servicios/${x.id}`} color={"red"}>
+                          Conocer mas
+                        </Btn>
                       </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

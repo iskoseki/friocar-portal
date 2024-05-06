@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import Carrousel from "../components/Carrousel";
 import Cta from "../components/Cta";
 import LogoBrands from "../components/LogoBrands";
 import SimpleCta from "../components/SimpleCta";
 import Testimonials from "../components/Testimonials";
+import WhatsAppButton from "../components/wsp";
 
 const HeaderHome = () => {
   return (
@@ -26,9 +28,13 @@ const HeaderHome = () => {
             <button className="inline-flex text-white  bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg">
               Servicios
             </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+            <Link
+              to={"https://wa.me/+5493417076172"}
+              className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              target="_blank"
+            >
               Escribinos
-            </button>
+            </Link>
           </div>
         </div>
       </div>

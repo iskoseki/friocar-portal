@@ -4,7 +4,6 @@ import Cta from "../components/Cta";
 import LogoBrands from "../components/LogoBrands";
 import SimpleCta from "../components/SimpleCta";
 import Testimonials from "../components/Testimonials";
-import WhatsAppButton from "../components/wsp";
 
 const HeaderHome = () => {
   return (

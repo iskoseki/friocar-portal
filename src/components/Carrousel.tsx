@@ -9,7 +9,6 @@ import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import Btn from "./Btn";
 import useServices from "../hooks/useServices";
-import { Link } from "react-router-dom";
 export default function Carrousel() {
   const { data } = useServices();
   return (

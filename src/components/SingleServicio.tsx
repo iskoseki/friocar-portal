@@ -20,8 +20,6 @@ export default function SingleServicio() {
   const { data, error } = useServices();
 
   const serviceById = data?.find((x: Servicio) => x.id == Number(id));
-  const gallery = serviceById?.gallery.map((url, id) => ({ id, url }));
-  console.log(serviceById);
 
   return (
     <>

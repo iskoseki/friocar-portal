@@ -2,19 +2,9 @@ import { useParams } from "react-router-dom";
 import useServices, { Servicio } from "../hooks/useServices";
 import Carrousel from "./Carrousel";
 import Cta from "./Cta";
-import { EffectCube, Pagination } from "swiper/modules";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-cube";
-import "swiper/css/pagination";
 import AnimateDiv from "./AnimateDiv";
-interface Gallery {
-  id: number;
-  url: string;
-}
+
 export default function SingleServicio() {
   const { id } = useParams();
   const { data, error } = useServices();

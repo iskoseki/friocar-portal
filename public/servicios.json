@@ -140,10 +140,44 @@
         "description": "Contamos con un servicio de reparación y cambios de todo los componentes del freno para todas las marcas de vehículos.",
          "secundaryDescription":"El taller automotriz ofrece servicios de revisión, mantenimiento y reparación del sistema de frenos del vehículo, incluyendo cambio de pastillas, discos, revisión de líquido de frenos, entre otros.",
         "cover": "/3.Frenos/cover-frenos.jpg",
-        "gallery": [{
+        "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/3.Frenos/cover-frenos.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,
@@ -173,10 +207,44 @@
         "description": "A través de un diagnóstico computarizado por medio de un Scanner, detectamos y diagnosticamos todo tipos de fallas del vehículo para su posterior solución. Contamos con un software moderno para brindar solución a los modelos de autos más recientes y de gama alta.",
          "secundaryDescription":"El taller automotriz ofrece servicios de revisión, mantenimiento y reparación del sistema de frenos del vehículo, incluyendo cambio de pastillas, discos, revisión de líquido de frenos, entre otros.",
         "cover": "/4.Diag-Computarizado/cover-diag-computalizado.jpg",
-        "gallery": [{
+        "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/4.Diag-Computarizado/cover-diag-computalizado.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,
@@ -206,10 +274,44 @@
         "description": "Este servicio se encarga de la revisión y reparación del sistema de dirección asistida hidráulica del vehículo, incluyendo la verificación de niveles de líquido, correas y componentes asociados.",
          "secundaryDescription":"Ofrecemos revisión y la reparación de todo el sistema hidráulico en los vehículos, cajas, cremalleras, flexibles, etc. Contamos con las herramientas especializadas para brindarle lo mejor a tu vehículo.",
         "cover": "/5.Direcciones-hidraulicas/cover-direccionHidraulica.jpg",
-        "gallery": [{
+     "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/5.Direcciones-hidraulicas/cover-direccionHidraulica.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,
@@ -239,10 +341,44 @@
         "description": "Ofrecemos servicios de reparación y mantenimiento del sistema de aire acondicionado del vehículo, incluyendo recargas de refrigerante, reparación de fugas, limpieza y ajustes.",
          "secundaryDescription":"En el área de aire acondicionado contamos con la experiencia de realizar todo tipo de reparaciones e instalaciones nuevas para los vehículos. Reparación de mangueras, cambio de compresores, limpieza del circuito, arreglo de evaporadores y mucho más.",
         "cover": "/6.Aire/cover-aire.jpg",
-        "gallery": [{
+      "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/6.Aire/cover-aire.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,
@@ -272,10 +408,44 @@
         "description": "La calefacción del vehículo es fundamental para el confort de los pasajeros, por lo que este servicio se encarga de mantener en óptimas condiciones el sistema de calefacción del automóvil.",
          "secundaryDescription":"Reparaciones y soluciones para la calefacción de tu vehículo, cambio de radiadores de calefacción, reemplazo de mangueras, limpieza del circuito de líquido refrigerante.",
         "cover": "/7.Calef/cover-calef.jpg",
-        "gallery": [{
+     "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/7.Calef/cover-calef.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,
@@ -305,10 +475,44 @@
         "description": "Este servicio se enfoca en la revisión y reparación del sistema eléctrico del vehículo, incluyendo la batería, luces, alternador, arranque, entre otros.",
          "secundaryDescription":"En la electricidad de los vehículos actuales existe un alto componente de electrónica teniendo que utilizar herramientas mucho más precisas y una mayor capacitación. Contamos con personal especializado y la tecnología apropiada.",
         "cover": "/8.Electricidad/cover-electricidad.jpg",
-        "gallery": [{
+    "gallery": [
+            {
+            "id": 0,
+            "url": "/2.Tren-delantero/cover-trenDelantero.jpg"
+        },
+        {
+            "id": 1,
+            "url": "/1.MecanicaLigera/fotos-internas/ALTERNADORES.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/1.MecanicaLigera/fotos-internas/DISTRIBUCION.jpg"
+        },
+    {
             "id": 3,
-            "url": "/8.Electricidad/cover-electricidad.jpg"
-        }] ,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+    {
+            "id": 4,
+            "url": "/1.MecanicaLigera/fotos-internas/EMBRAGUES.jpg"
+        },
+        {
+            "id": 5,
+            "url": "/1.MecanicaLigera/fotos-internas/FILTROS.jpg"
+        },
+    {
+            "id": 6,
+            "url": "/1.MecanicaLigera/fotos-internas/FLUIDOS.jpg"
+        },
+    {
+            "id": 7,
+            "url": "/1.MecanicaLigera/fotos-internas/LUBRICANTES.jpg"
+        },
+    {
+            "id": 8,
+            "url": "/1.MecanicaLigera/fotos-internas/SERVICE-GENERAL.jpg"
+        }
+    ],
          "fotos": [
         {
         "id": 0,

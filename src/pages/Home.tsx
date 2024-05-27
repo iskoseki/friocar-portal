@@ -19,10 +19,10 @@ const HeaderHome = () => {
               className="animate__animated animate__jackInTheBox w-[300px] md:w-[350px] "
             />
           </div>
-          <p className="animate__animated animate__fadeInUp mb-8 mx-20 text-gray-400 leading-relaxed">
-            Taller integral del automotor. Servicios generales de mecánica
-            automotriz, aire acondicionado, reparación de tren delantero,
-            electricidad y más.
+          <p className="font-thin">Taller integral del automotor</p>
+          <p className="animate__animated animate__fadeInUp mb-8 mx-20 font-light te text-gray-100 text-xl leading-relaxed">
+            Servicios generales de mecánica automotriz, aire acondicionado,
+            reparación de tren delantero, electricidad y más.
           </p>
           <div className=" animate__animated animate__fadeInUp flex justify-center">
             <button className="inline-flex text-white  bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg">

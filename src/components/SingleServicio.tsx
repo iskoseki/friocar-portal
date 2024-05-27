@@ -30,7 +30,7 @@ export default function SingleServicio() {
         >
           <section className="text-gray-600 body-font mt-12">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-              <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <div className="animate__animated animate__fadeInLeft lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                   {serviceById.title}
                 </h1>
@@ -38,44 +38,31 @@ export default function SingleServicio() {
                   {serviceById.description}
                 </p>
                 <div className="flex justify-center">
-                  <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                    Button
-                  </button>
-                  <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                    Button
-                  </button>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/5493417076172"
+                    className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                  >
+                    Escribinos
+                  </a>
+                  <a
+                    href="/servicios"
+                    className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+                  >
+                    Más servicios
+                  </a>
                 </div>
               </div>
 
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <Swiper
-                  effect={"cube"}
-                  grabCursor={true}
-                  cubeEffect={{
-                    shadow: true,
-                    slideShadows: true,
-                    shadowOffset: 20,
-                    shadowScale: 0.94,
-                  }}
-                  pagination={true}
-                  modules={[EffectCube, Pagination]}
-                  className="mySwiper"
-                >
-                  {serviceById &&
-                    serviceById.gallery.map((galleryItem: Gallery | any) => {
-                      const { id, url } = galleryItem;
-                      return (
-                        <SwiperSlide key={id}>
-                          <img
-                            alt="hero"
-                            width={720}
-                            height={600}
-                            src={`${url}`}
-                          />
-                        </SwiperSlide>
-                      );
-                    })}
-                </Swiper>
+              <div className="animate__animated animate__fadeInRightBig lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                {serviceById && (
+                  <img
+                    alt="hero"
+                    width={720}
+                    height={600}
+                    src={`${serviceById.cover}`}
+                  />
+                )}
               </div>
             </div>
           </section>

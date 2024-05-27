@@ -29,13 +29,18 @@ export default function CarrouselSingle({ gallery }: { gallery: Gallery[] }) {
         modules={[EffectCube, Pagination]}
         className="mySwiper"
       >
-        {gallery.map((x) => {
-          return (
-            <SwiperSlide key={x.id}>
-              <img alt="hero" width={720} height={600} src={x.url} />
-            </SwiperSlide>
-          );
-        })}
+        {gallery &&
+          gallery.map((x) => {
+            const { id, url } = x;
+
+            return (
+              <>
+                <SwiperSlide key={id}>
+                  <img alt="hero" width={720} height={600} src={url} />
+                </SwiperSlide>
+              </>
+            );
+          })}
       </Swiper>
     </>
   );

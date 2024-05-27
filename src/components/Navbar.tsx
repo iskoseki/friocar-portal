@@ -24,10 +24,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`flex justify-center animate__fadeInUp transition-all duration-700 ease-in-out  p-0 inset-x-0 top-0 z-40 fixed`}
+      className={` animate__animated animate__backInDown flex justify-center animate__fadeInUp transition-all duration-700 ease-in-out  p-0 inset-x-0 top-0 z-40 fixed`}
     >
       <nav
-        className="md:my-2 w-full md:w-[550px] bg-red-700  md:rounded-xl flex justify-center items-center py-2 "
+        className="md:my-4 w-full md:w-[550px] bg-red-700  md:rounded-xl flex justify-center items-center py-2 "
         aria-label="Global"
       >
         <div className="hidden  md:flex lg:flex-1 justify-end">
@@ -45,8 +45,9 @@ export default function Navbar() {
         <div className="flex flex-start  lg:flex-1">
           <div className="mx-12">
             <span className="sr-only">Frio car</span>
-
-            <img src="/logo.png" alt="" height={60} width={100} />
+            <a href="/">
+              <img src="/logo.png" alt="" height={60} width={100} />
+            </a>
           </div>
         </div>
 
@@ -73,6 +74,7 @@ export default function Navbar() {
           ))}
         </div>
       </nav>
+
       <Dialog
         as="div"
         className="sm:hidden z-50 transition-all duration-700 ease-out"

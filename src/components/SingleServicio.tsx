@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useParams } from "react-router-dom";
 import useServices, { Servicio } from "../hooks/useServices";
 import Carrousel from "./Carrousel";
@@ -11,12 +10,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
+import AnimateDiv from "./AnimateDiv";
+interface Gallery {
+  id: number;
+  url: string;
+}
 export default function SingleServicio() {
   const { id } = useParams();
   const { data, error } = useServices();
 
   const serviceById = data?.find((x: Servicio) => x.id == Number(id));
   const gallery = serviceById?.gallery.map((url, id) => ({ id, url }));
+  console.log(serviceById);
 
   return (
     <>
@@ -43,6 +48,7 @@ export default function SingleServicio() {
                   </button>
                 </div>
               </div>
+
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <Swiper
                   effect={"cube"}
@@ -57,16 +63,16 @@ export default function SingleServicio() {
                   modules={[EffectCube, Pagination]}
                   className="mySwiper"
                 >
-                  {gallery &&
-                    gallery.map((x) => {
-                      console.log(x.url);
+                  {serviceById &&
+                    serviceById.gallery.map((galleryItem: Gallery | any) => {
+                      const { id, url } = galleryItem;
                       return (
-                        <SwiperSlide key={x.id}>
+                        <SwiperSlide key={id}>
                           <img
                             alt="hero"
                             width={720}
                             height={600}
-                            src={x.url}
+                            src={`${url}`}
                           />
                         </SwiperSlide>
                       );
@@ -76,35 +82,39 @@ export default function SingleServicio() {
             </div>
           </section>
           <section className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto flex flex-wrap">
-              <div className="flex w-full mb-20 flex-wrap">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-                  En nuestro taller
-                </h1>
-                <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-                  {serviceById.secundaryDescription}
-                </p>
-              </div>
+            <AnimateDiv>
+              <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                <div className="flex w-full mb-20 flex-wrap">
+                  <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+                    En nuestro taller
+                  </h1>
+                  <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+                    {serviceById.secundaryDescription}
+                  </p>
+                </div>
 
-              <div className="flex flex-wrap md:-m-2 -m-1">
-                {serviceById.gallery &&
-                  serviceById.fotos.map((x: any, index: number) => {
-                    let containerClass = "md:p-2 p-1 w-1/2";
-                    if (index % 6 === 2) {
-                      containerClass = "md:p-2 p-1 w-full";
-                    }
-                    return (
-                      <div key={x.id} className={containerClass}>
-                        <img
-                          alt="gallery"
-                          className="w-full object-cover h-full object-center block"
-                          src={x.url}
-                        />
-                      </div>
-                    );
-                  })}
+                <div className="flex flex-wrap md:-m-2 -m-1">
+                  {serviceById.gallery &&
+                    serviceById.fotos.map(
+                      (x: { id: number; url: string }, index: number) => {
+                        let containerClass = "md:p-2 p-1 w-1/2";
+                        if (index % 6 === 2) {
+                          containerClass = "md:p-2 p-1 w-full";
+                        }
+                        return (
+                          <div key={x.id} className={containerClass}>
+                            <img
+                              alt="gallery"
+                              className="w-full object-cover h-full object-center block"
+                              src={x.url}
+                            />
+                          </div>
+                        );
+                      }
+                    )}
+                </div>
               </div>
-            </div>
+            </AnimateDiv>
           </section>
           <div className="text-center -mb-4">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">

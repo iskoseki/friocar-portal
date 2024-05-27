@@ -1,4 +1,4 @@
-function Cta() {
+function CtaSecundary() {
   const phoneNumber = "+5493417076172";
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");
@@ -28,14 +28,12 @@ function Cta() {
           </svg>
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Diagnóstico computarizado
+              Electicidad{" "}
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              A través de un diagnóstico computarizado por medio de un Scanner,
-              detectamos y diagnosticamos todo tipos de fallas del vehículo para
-              su posterior solución. Contamos con un software moderno para
-              brindar solución a los modelos de autos más recientes y de gama
-              alta.
+              Este servicio se enfoca en la revisión y reparación del sistema
+              eléctrico del vehículo, incluyendo la batería, luces, alternador,
+              arranque, entre otros.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
@@ -56,7 +54,7 @@ function Cta() {
             <a href="/servicios/4">
               <img
                 className="absolute left-0 top-0 w-[40rem] max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10"
-                src="/4.Diag-Computarizado/cover-diag-computalizado.jpg"
+                src="/8.Electricidad/cover-electricidad.jpg"
                 alt="App screenshot"
                 width={1920}
                 height={1080}
@@ -69,4 +67,4 @@ function Cta() {
   );
 }
 
-export default Cta;
+export default CtaSecundary;

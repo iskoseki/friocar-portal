@@ -4,7 +4,8 @@ import Cta from "../components/Cta";
 import LogoBrands from "../components/LogoBrands";
 import SimpleCta from "../components/SimpleCta";
 import Testimonials from "../components/Testimonials";
-
+import AnimateDiv from "../components/AnimateDiv";
+import CtaSecundary from "../components/CtaSecundary";
 const HeaderHome = () => {
   return (
     <section className=" bg-[url(https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-fixed   bg-cover bg-center xl:h-screen  bg-no-repeat  w-full ">
@@ -15,15 +16,15 @@ const HeaderHome = () => {
             <img
               src="/logo.png"
               alt="frio-car-logo"
-              className="w-[300px] md:w-[350px] "
+              className="animate__animated animate__jackInTheBox w-[300px] md:w-[350px] "
             />
           </div>
-          <p className="mb-8 mx-20 text-gray-400 leading-relaxed">
+          <p className="animate__animated animate__fadeInUp mb-8 mx-20 text-gray-400 leading-relaxed">
             Taller integral del automotor. Servicios generales de mecánica
             automotriz, aire acondicionado, reparación de tren delantero,
             electricidad y más.
           </p>
-          <div className="flex justify-center">
+          <div className=" animate__animated animate__fadeInUp flex justify-center">
             <button className="inline-flex text-white  bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg">
               Servicios
             </button>
@@ -44,12 +45,24 @@ export default function Home() {
   return (
     <>
       <HeaderHome />
-      <Carrousel />
+      <AnimateDiv>
+        <Carrousel />
+      </AnimateDiv>
+
       <Cta />
-      <LogoBrands />
-      <Cta />
-      <Testimonials />
-      <SimpleCta />
+
+      <AnimateDiv>
+        <LogoBrands />
+      </AnimateDiv>
+
+      <CtaSecundary />
+
+      <AnimateDiv>
+        <Testimonials />
+      </AnimateDiv>
+      <AnimateDiv>
+        <SimpleCta />
+      </AnimateDiv>
     </>
   );
 }

@@ -73,7 +73,7 @@ function Footer() {
       <div className="bg-gray-800">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-400 text-sm text-center sm:text-left">
-            © 2024 Critikal Software —
+            © 2025 Critikal Software —
             <a
               href="https://www.instagram.com/koseki.wav/"
               rel="noopener noreferrer"

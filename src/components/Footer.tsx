@@ -75,12 +75,12 @@ function Footer() {
           <p className="text-gray-400 text-sm text-center sm:text-left">
             © 2024 Critikal Software —
             <a
-              href="https://twitter.com/knyttneve"
+              href="https://www.instagram.com/koseki.wav/"
               rel="noopener noreferrer"
               className="text-gray-600 ml-1"
               target="_blank"
             >
-              @critikal.co
+              by Leandro Bordon
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

@@ -50,7 +50,7 @@ export default function Contacto() {
                 href="https://wa.me/+5493417076172"
                 className="leading-relaxed"
               >
-                +5493417076172
+                +5493412614250
               </a>
             </div>
           </div>

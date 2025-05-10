@@ -1,5 +1,5 @@
 const WhatsAppButton = () => {
-  const phoneNumber = "+5493417076172"; // Reemplaza esto con el número de teléfono del cliente
+  const phoneNumber = "+5493412614250";
 
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");

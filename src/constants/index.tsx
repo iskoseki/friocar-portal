@@ -14,7 +14,7 @@ export const ContactLinks = [
     svg: <MailSvg />,
   },
   {
-    name: "03414380965",
+    name: "+5493412614250",
     svg: <PhoneSvg />,
   },
   {
@@ -33,7 +33,7 @@ export const FooterLinks = [
     ],
     contacto: [
       { name: "info@friocarrosario.com.ar", svg: <MailSvg /> },
-      { name: "03414380965", svg: <PhoneSvg /> },
+      { name: "+5493412614250", svg: <PhoneSvg /> },
       { name: "Santa Fe 4514, Rosario", svg: <LocationSvg /> },
     ],
   },
